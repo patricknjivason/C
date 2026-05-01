@@ -1,0 +1,28 @@
+#include<stdio.h>
+void reception(int *l,int *L)
+{
+    printf("entrer la longueur du rectangle");
+    scanf("%d",L);
+    printf("entrer sa largeur ");
+    scanf("%d",l);
+}
+void fabrication(int *L,int *l)
+{
+    int i,j;
+    for(i = 0; i < *l; i++)
+    {
+        for ( j = 0; j < *L ; j++)
+        {
+           printf("* ");
+        }
+        printf("\n");
+    }
+    
+}
+
+int main(void)
+{
+    int *l, *L,i,j;
+    reception(L,l);
+    fabrication(l,L);
+}
