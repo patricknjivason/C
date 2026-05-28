@@ -1,4 +1,4 @@
-/*VARIABLE
+1/*VARIABLE
   i:entier;
   n:entier;
   S:reel;
